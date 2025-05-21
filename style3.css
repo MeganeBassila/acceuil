@@ -1,0 +1,117 @@
+*{
+
+    margin-top: 1%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-position: center;
+    background-size: cover;
+   
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 1300px;
+}
+
+.video{
+  max-height: 600px;
+
+}
+
+h1{
+    position: absolute;
+    left: 35%;
+    text-decoration: underline;
+}
+header{
+    background-color: coral;
+}
+.carousel-inner{
+  border: 10px;
+}
+h3{
+    margin-top: 60%;
+    text-align: justify;
+}
+
+.card{
+  margin-top: 20%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header {
+  background-color:#5c4033 ;
+  color: #5c4033(214, 213, 169);
+  padding: 30px 20px;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 40px 20px;
+}
+
+.cv-button {
+  background-color: #8b5e3c;
+  color: #8b5e3c(84, 128, 179);
+  border: none;
+  padding: 15px 30px;
+  font-size: 18px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  text-decoration: none;
+}
+
+.cv-button:hover {
+  background-color: #a9745d;
+  transform: scale(1.05);
+}
+
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
+    color: #fff;
+}
+
+section {
+    background-color:rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255, 0.2);
+    border-radius: 20px;
+
+}
+body {
+    
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
+    color: #fff;
+}
+
